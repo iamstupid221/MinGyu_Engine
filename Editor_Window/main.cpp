@@ -25,7 +25,8 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
 
-    // 깃허브 테스트  111
+    //깃허브 테스트
+
 
 
     // TODO: 여기에 코드를 입력합니다.

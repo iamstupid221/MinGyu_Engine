@@ -26,6 +26,6 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Editor_Window.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
 </Project>
