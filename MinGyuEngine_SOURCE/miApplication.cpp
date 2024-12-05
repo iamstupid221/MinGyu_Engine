@@ -1,5 +1,5 @@
 #include "miApplication.h"
-
+#include "miInput.h"
 namespace mi
 {
 	Application::Application()
@@ -20,6 +20,8 @@ namespace mi
 		mHdc = GetDC(hwnd);
 
 		mPlayer.SetPosition(0, 0);
+
+		Input::Initailize();
 	}
 
 	void Application::Run()
@@ -31,7 +33,9 @@ namespace mi
 
 	void Application::Update()
 	{
+		Input::Update();
 		mPlayer.Update();
+		wPlayer.Update();
 	}
 
 	void Application::LateUpdate()
@@ -42,6 +46,6 @@ namespace mi
 	void Application::Render()
 	{
 		mPlayer.Render(mHdc);
-
+		wPlayer.Render(mHdc);
 	}
 }

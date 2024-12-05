@@ -1,6 +1,7 @@
 #pragma once
 #include "CommonInclude.h"
 #include "miGameObject.h"
+#include "miGameObject2.h"
 namespace mi
 {
 	class Application
@@ -23,6 +24,7 @@ namespace mi
 
 		//플레이어
 		GameObject mPlayer;
+		GameObject2 wPlayer;
 	};
 
 }
