@@ -17,13 +17,13 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)CommonInclude.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)miApplication.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)miGameObject.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)miGameObject2.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)miInput.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)miTime.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)miApplication.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)miGameObject.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)miGameObject2.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)miInput.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)miTime.cpp" />
   </ItemGroup>
 </Project>

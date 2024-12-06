@@ -1,7 +1,6 @@
 #pragma once
 #include "CommonInclude.h"
 #include "miGameObject.h"
-#include "miGameObject2.h"
 namespace mi
 {
 	class Application
@@ -10,7 +9,7 @@ namespace mi
 		Application();
 		~Application(); 
 
-		void Initialize(HWND hwnd);
+		void Initialize(HWND hwnd, UINT width, UINT Height);
 		void Run();
 
 		void Update();
@@ -21,10 +20,15 @@ namespace mi
 		HWND mHwnd;
 		HDC mHdc;
 
+		HDC mBackHdc;
+		HBITMAP mBackBitmap;
+		
+
+		UINT mWidth;
+		UINT mHeight;
 
 		//플레이어
 		GameObject mPlayer;
-		GameObject2 wPlayer;
 	};
 
 }
